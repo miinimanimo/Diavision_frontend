@@ -15,12 +15,12 @@ function App() {
         <Navbar />
         <div className="content-wrapper">
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/analysis" element={<Analysis />} />
             <Route path="/login" element={<Login />} />
             <Route path="/patient-registration" element={<PatientRegistration />} />
             <Route path="/mypage" element={<MyPage />} />
-            <Route path="/" element={<Navigate to="/home" replace />} />
           </Routes>
         </div>
       </div>
