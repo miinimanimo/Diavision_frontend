@@ -222,7 +222,7 @@ const Step3FinalConfirm: React.FC<Step3FinalConfirmProps> = ({
           >
             {(selectedEye === 'left' && enabledEyes.left) && (
               <img
-                src="https://miinimanimo.github.io/capstone_frontend/images/eye.jpeg"
+                src={process.env.PUBLIC_URL + "/images/eye.jpeg"}
                 alt="좌안 안저 이미지"
                 onLoad={handleImageLoad}
                 style={{
@@ -235,7 +235,7 @@ const Step3FinalConfirm: React.FC<Step3FinalConfirmProps> = ({
             )}
             {(selectedEye === 'right' && enabledEyes.right) && (
               <img
-                src="https://miinimanimo.github.io/capstone_frontend/images/eye.jpeg"
+                src={process.env.PUBLIC_URL + "/images/eye.jpeg"}
                 alt="우안 안저 이미지"
                 onLoad={handleImageLoad}
                 style={{

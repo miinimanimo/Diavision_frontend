@@ -87,7 +87,7 @@ const Step2AIResult: React.FC<Step2AIResultProps> = ({
             </div>
             <div className="interest-region-section">
               <h3>Interest Region</h3>
-              <img src="https://miinimanimo.github.io/capstone_frontend/images/ig.jpeg" alt="Interest Region" />
+              <img src={process.env.PUBLIC_URL + "/images/ig.jpeg"} alt="Interest Region" />
             </div>
           </div>
         </div>

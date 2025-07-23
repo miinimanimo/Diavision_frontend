@@ -1072,8 +1072,8 @@ const handleSuperpixelLineWidthDec = () => setSuperpixelLineWidth((prev) => Math
             handlePrev={handlePrev}
             handleEyeConfirm={handleEyeConfirm}
             handleNext={handleNext}
-            leftEyeImage={leftEyeImage}
-            rightEyeImage={rightEyeImage}
+            leftEyeImage={leftEyeImage || (process.env.PUBLIC_URL + '/images/eye.jpeg')}
+            rightEyeImage={rightEyeImage || (process.env.PUBLIC_URL + '/images/eye.jpeg')}
             imageSize={imageSize}
             imagePosition={imagePosition}
             handleImageLoad={handleImageLoad}
