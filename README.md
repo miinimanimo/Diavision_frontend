@@ -4,12 +4,11 @@ Diavision은 안과 진단을 위한 AI 기반 웹 애플리케이션입니다.
 
 ## 프로젝트 개요
 
-이 프로젝트는 React와 TypeScript를 사용하여 구축된 프론트엔드 애플리케이션입니다. Firebase를 통한 인증 및 데이터베이스 연동을 지원합니다.
+이 프로젝트는 React와 TypeScript를 사용하여 구축된 프론트엔드 애플리케이션입니다. 
 
 ## 주요 기능
 
-- 🔐 Firebase 인증 시스템
-- 👁️ 안과 이미지 업로드 및 분석
+- 👁️ 안저 이미지 업로드 및 분석
 - 🤖 AI 기반 진단 결과 제공
 - 📊 환자 정보 관리
 - 📱 반응형 웹 디자인
@@ -18,9 +17,7 @@ Diavision은 안과 진단을 위한 AI 기반 웹 애플리케이션입니다.
 
 - **Frontend**: React 19, TypeScript
 - **Styling**: CSS, Styled Components
-- **Authentication**: Firebase Auth
-- **Database**: Firebase Firestore
-- **Deployment**: GitHub Pages
+
 
 ## 설치 및 실행
 
