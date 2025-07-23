@@ -78,15 +78,9 @@ src/
 
 ## 배포
 
-이 프로젝트는 GitHub Pages를 통해 배포됩니다. 배포된 사이트는 [https://miinimanimo.github.io/Diavision_frontend](https://miinimanimo.github.io/Diavision_frontend)에서 확인할 수 있습니다.
+이 프로젝트는 GitHub Pages를 통해 임시 배포됩니다. 배포된 사이트는 [https://miinimanimo.github.io/Diavision_frontend](https://miinimanimo.github.io/Diavision_frontend)에서 확인할 수 있습니다.
 
-## 기여하기
 
-1. 이 레포지토리를 포크합니다
-2. 새로운 기능 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`)
-3. 변경사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`)
-4. 브랜치에 푸시합니다 (`git push origin feature/AmazingFeature`)
-5. Pull Request를 생성합니다
 
 ## 라이선스
 
